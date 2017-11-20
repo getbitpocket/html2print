@@ -1,0 +1,24 @@
+{
+  "name": "html2print",
+  "version": "1.0.0",
+  "description": " transform html to esc/pos printer syntax ",
+  "main": "index.js",
+  "scripts": {
+    "generate": "pegjs -o dist/html2print.js src/html2print.pegjs" ,
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getbitpocket/html2print.git"
+  },
+  "author": "Stefan Huber",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/getbitpocket/html2print/issues"
+  },
+  "homepage": "https://github.com/getbitpocket/html2print#readme",
+  "devDependencies": {
+    "jasmine": "^2.8.0",
+    "pegjs": "^0.10.0"
+  }
+}
